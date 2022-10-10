@@ -21,6 +21,7 @@ public class SwaggerConfig {
                 .build().apiInfo(apiInfo());
     }
 
+    //swagger-ui 접속화면의 ui구성(제목, 부제목, version 등)
     private ApiInfo apiInfo() {
         String desc = "api test world";
         return new ApiInfoBuilder()
